@@ -1,0 +1,4 @@
+Optimisation Rendu React:
+
+- Memoïsation du component pour empêcher le re render du parent à l'enfant
+Il faut utiliser la méthode memo(), il va analyser le component enfant et va comparer le component actuel et détecte qu'on demande un nouveau rendu il va comparer la valeur du component actuel et son nouveau rendu et si la valeur est la même il ne va pas le rerender.
